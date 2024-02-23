@@ -25,6 +25,10 @@ app.get("/", (req, res) => {
 app.get("/login", (req, res) => {
     res.render("login.ejs");
 });
+
+// app.get("/secrets", (req, res) => {
+//   res.render("secrets.ejs");
+// });
   
 app.get("/register", (req, res) => {
     res.render("register.ejs");

@@ -20,11 +20,11 @@ body{
 
 .home-logo {
     height: auto; 
-    width: 33.33%; 
+    width: 30%; 
 }
 
 .home-title{
-    font-size: 4rem;
+    font-size: 3.5rem;
     text-align: center;
 }
 
@@ -40,13 +40,54 @@ body{
 
 .home-login-btn,
 .home-register-btn {
-    background-color: rgb(247, 239, 12);
+    background-color: rgb(36, 43, 248);
+    color: #ffffff;
     width: 80%;
     border: 1px solid transparent;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 5px;
 }
 
 @media (max-width:400px){
     .home-container{
         width:100%;
     }
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.login-container h2 {
+    margin-top: 0;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.login-container input[type="submit"] {
+    width: 100%;
+    background-color: #1018fc;
+    color: #fff;
+    padding: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-container input[type="submit"]:hover {
+    background-color: #41db41;
 }
